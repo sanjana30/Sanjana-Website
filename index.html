@@ -44,7 +44,7 @@
             </div>
         </div>
 
-        <div class="section" style="background: #DBCDBA">
+        <div class="section" style="background: #DBCDBA" id="bio">
             <div class="row container" style="background: #DBCDBA">
                 <h2 class="header">Sanjana Tripathi</h2>
                 <hr>
@@ -82,13 +82,14 @@
                 <img src="images/hogwarts-dark-background.png">
             </div>
         </div>
+        <!-- floating action button -->
         <div class="fixed-action-btn">
             <a class="btn-floating btn-large black">
                 <i class="large material-icons">mode_edit</i>
             </a>
             <ul>
                 <li>
-                    <a class="btn-floating blue">
+                    <a class="btn-floating blue" href="#bio">
                         <i class="material-icons">account_circle</i>
                     </a>
                 </li>
@@ -179,16 +180,33 @@
                 </div>
             </div>
             <!-- row-2 -->
+            <div class="row container" style="background: #DBCDBA">
+                <!--row-1-col-1-->
+                <div class="col l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/liri.jpg">
+                        </div>
+                        <div class="card-content" style="background: black">
+                            <span class="card-title activator white-text text-darken-4">LIRI
+                                <i class="material-icons right" style="color: white">more_vert</i>
+                            </span>
+                            <p>
+                                <a href="https://github.com/sanjana30/liri-node-app" target="_" style="color: red">Github: LIRI</a>
+                            </p>
+                        </div>
+                        <div class="card-reveal" style="background: black">
+                            <span class="card-title white-text text-darken-4">LIRI
+                                <i class="material-icons right" style="color: white">close</i>
+                            </span>
+                            <p style="color:white">LIRI - SIRI's doppelganger is a Language Interpretaion and Recognition Interface that uses various APIs to fetch information about songs, movies, bands and artists requested by the user.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <script>
-            $(document).ready(function () {
-                $('.parallax').parallax();
-            });
-            $(document).ready(function () {
-                $('.fixed-action-btn').floatingActionButton();
-            });
-
-        </script>
+        <script type="text/JavaScript" src="script.js"></script>
     
 </body>
 
