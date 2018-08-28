@@ -1,0 +1,179 @@
+
+    body,
+    html {
+        margin-top: -10px; 
+        width: 100%;
+        height: 100%;
+        
+        box-sizing: border-box;
+    }
+    /* .page-footer{
+        background-color: rgb(207, 120, 120) ;
+        padding: 0px;
+    }
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    
+    } */
+   main {
+    flex: 1 0 auto;
+   }
+    .contain {
+        margin: 0 ;
+        height: 100%;
+        width: 100%;
+        background-image: url("images/tree-lights.jpg");
+        background-attachment: fixed;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+    }
+    .heading {
+        vertical-align: middle;
+        position: relative;
+        top: 45%;
+        
+    }
+    .animation{
+        animation-name: example;
+        animation-duration: 2s;
+    }
+
+    .heading-text1 {
+
+        font-family: 'Libre Baskerville', serif;
+        letter-spacing: 2px;
+        font-size: 48px;
+        line-height: 2.8 rem;
+        /* font-weight: 1500; */
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        z-index: 15;
+        margin: 20px;
+        
+    }
+    @-webkit-keyframes example {
+        0%   { top:0px;}
+        
+        100% { top:45%;}
+    }
+    .heading-text2 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        line-height: 1.5rem;
+        /* font-weight: 1000; */
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        z-index: 10;
+        margin: 20px;
+    }
+    .menu-icon {
+        color: rgb(240, 202, 148);
+        z-index: 135;
+    }
+    .navIcon {
+        margin: 20px;
+        padding: 20px;
+        text-align: left;
+        position: fixed;
+        top: 0;
+    }
+
+    .nav-wrapper,
+    nav {
+        background-color: #ffffff;
+        opacity: 0.6;
+        filter: alpha;
+    }
+
+    #bio {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-attachment: fixed;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background:  rgb(29, 29, 29);
+    }
+   
+
+    .header {
+        /* font-family: 'Tangerine', cursive; */
+        font-family: 'Libre Baskerville', serif;
+        /* color: rgba(245, 245, 245, 0.863); */
+        color: rgb(240, 202, 148);
+        text-align: center;
+    }
+
+    
+
+    .sidenav {
+        background: rgb(29, 29, 29);
+        /* border-right: 1px solid rgb(240, 202, 148); */
+        box-shadow: 2px 5px 5px rgb(240, 202, 148);
+        /* padding: 20px; */
+    }
+    
+    .name{
+        color: rgb(240, 202, 148); 
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    .nav-list {
+        color: rgb(240, 202, 148);  
+        font-family: 'Comfortaa', cursive;
+    }
+
+    li:hover {
+        background: rgb(56, 56, 56);
+    }
+
+    #contact {
+        background-image: url("images/contactlights.jpg");
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contact-icon{
+        text-align: right;
+        z-index: 10;
+        /* box-sizing: border-box;   */
+    }
+
+    .contact-info{
+        text-align: left;
+        letter-spacing: 1px;
+        font-weight: bolder;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        line-height: 1.5rem;
+        font-weight: bold;
+        color: black;
+        z-index: 10;
+    }
+
+    .divider{
+        color:  rgb(243, 220, 189);
+       
+    }
+/* portfolio css */
+
+.portfolio-wrapper{
+    /* background: rgb(29, 29, 29);  */
+    width: 100%; 
+    height: 100%;
+}
+
+.img-size{
+    width: 200px;
+    height: 250px;
+}

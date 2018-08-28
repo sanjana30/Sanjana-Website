@@ -1,9 +1,12 @@
 
             $(document).ready(function () {
+               
+                    $('.sidenav').sidenav();
+                  
+                      
                 $('.parallax').parallax();
-            });
-            $(document).ready(function () {
                 $('.fixed-action-btn').floatingActionButton();
+                $('.carousel').carousel();
             });
 
        

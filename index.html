@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Sanjana Tripathi</title>
-    <link rel="shortcut icon" type="image/png" href="portfolio-icon.png">
+    <link rel="shortcut icon" type="image/png" href="images/portfolio-icon.png">
     <!-- include jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- include materialize -->
@@ -15,199 +15,134 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--include viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <!-- fonts.google.com -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Cormorant+Garamond|Libre+Franklin|Libre+Baskerville|Tangerine|Roboto+Mono|Sawarabi+Mincho|Open+Sans"
+        rel="stylesheet">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
         crossorigin="anonymous"></script>
-    <!-- Added Font -->
-    <link href="https://fonts.googleapis.com/css?family=Antic|Cabin+Sketch|Neucha" rel="stylesheet">
+
     <!-- css link -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<style>
-    .clearfix {
-        content: "";
-        clear: both;
-        display: table;
-    }
-</style>
+
 
 <body>
-
-    <body>
-        <div class="parallax-container">
-            <div class="parallax ">
-                <img src="images/hogwarts-lighting.gif">
-                <p class="center-align" style="margin-top: 200px">
-                    <a class="waves-effect waves-light btn-large  pulse z-depth-5" style="background:#DBCDBA; color: black" href="portfolio.html">Alohomora</a>
-                </p>
-
+    <!-- <nav>  </nav> -->
+    <!-- code for nav bar contents -->
+    <ul id="slide-out" class="sidenav ">
+        <li>
+            <div class="user-view" style="padding-bottom: 10px; background: rgb(56, 56, 56);"> 
+                    <img class="circle" src="images/dp-resized.jpg">
+                    <a href="#landing"><span class="name"><h6>Sanjana Tripathi</h6></span></a>
             </div>
-        </div>
-
-        <div class="section" style="background: #DBCDBA" id="bio">
-            <div class="row container" style="background: #DBCDBA">
-                <h2 class="header">Sanjana Tripathi</h2>
-                <hr>
-                <p class="grey-text text-darken-3 lighten-3">
-                    <div class="row valign-wrapper">
-                        <div class="col l2">
-                            <img src="images/dp-resized.jpg" alt="" class="circle responsive-img" style="float: left;">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="col l10">
-                            <span class="black-text clearfix">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iste repellendus odio nemo numquam omnis iure nobis obcaecati
-                                qui nesciunt, fugiat ipsum consequatur tempora aliquid eum, autem non eligendi modi. Lorem
-                                ipsum dolor sit amet consectetur adipisicing elit. Eligendi, saepe et tempore repellendus,
-                                nesciunt, laborum doloremque hic placeat sunt soluta laboriosam perspiciatis illum mollitia.
-                                Praesentium reiciendis totam veritatis obcaecati error. Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Accusamus a est, harum consequatur, vel itaque atque excepturi rerum voluptates
-                                quam deleniti aut obcaecati sapiente ut architecto minus, facere nisi modi! Lorem ipsum dolor
-                                sit amet consectetur adipisicing elit. Ea eaque vitae odit aspernatur earum rem eligendi
-                                nobis quis hic! Aliquam ab esse consequatur alias? Nihil iste pariatur soluta excepturi adipisci!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus totam quis culpa sint?
-                                Ab soluta voluptas, corrupti explicabo, iste dolorum dicta a voluptatem iure voluptate laudantium?
-                                Iusto cupiditate sunt ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                                ipsa repudiandae possimus quos aperiam quasi quod! Laborum in cum, ex molestias, sed nemo
-                                enim qui, aliquam debitis cumque soluta ratione!
-                            </span>
-                        </div>
-                    </div>
-                </p>
-            </div>
-        </div>
-
-        <div class="parallax-container">
-            <div class="parallax">
-                <img src="images/hogwarts-dark-background.png">
-            </div>
-        </div>
-        <!-- floating action button -->
-        <div class="fixed-action-btn">
-            <a class="btn-floating btn-large black">
-                <i class="large material-icons">mode_edit</i>
+        </li>
+        <li>
+            <a href="#bio">
+                <p class="nav-list">About</p>
             </a>
-            <ul>
-                <li>
-                    <a class="btn-floating blue" href="#bio">
-                        <i class="material-icons">account_circle</i>
-                    </a>
-                </li>
-                <li>
-                    <a class="btn-floating yellow darken-1" href="#portfolio">
-                        <i class="material-icons">assignment</i>
-                    </a>
-                </li>
-                <li>
-                    <a class="btn-floating green" href="contact.html">
-                        <i class="material-icons">contact_mail</i>
-                    </a>
-                </li>
+        </li>
+        
+        <li>
+            <a href="portfolio.html">
+                <p class="nav-list">Portfolio</p>
+            </a>
+        </li>
+        <li>
+            <a href="#contact">
+                <p class="nav-list">Contact</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://drive.google.com/open?id=19vDm2GG2FR5ep_H1ZxHfZ3L8U1w4gE3u" target="_">
+                <p class="nav-list">Résumé</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://allinorallout.wordpress.com" target="_">
+                <p class="nav-list">Personal Blog</p>
+            </a>
+        </li>
+    </ul>
+    <!-- nav bar content ends -->
 
-            </ul>
-        </div>
-
-        <!-- portfolio section -->
-        <div class="section" id="portfolio" style="background: #DBCDBA">
-            <div class="row container" style="background: #DBCDBA">
-                <div class="col l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/traffic.gif">
-                        </div>
-                        <div class="card-content" style="background: black">
-                            <span class="card-title activator white-text text-darken-4">Car Pul
-                                <i class="material-icons right" style="color: white">more_vert</i>
-                            </span>
-                            <p>
-                                <a href="https://github.com/sanjana30/Car-Pul" target="_" style="color: red">Github: Car-Pul</a>
-                            </p>
-                        </div>
-                        <div class="card-reveal" style="background: black">
-                            <span class="card-title white-text text-darken-4">Car Pul
-                                <i class="material-icons right" style="color:white">close</i>
-                            </span>
-                            <p style="color: white">A solution to our daily traffic problem.</p>
-                            <p style="color: white">The user needs to put in his/her travel details to view drivers/riders nearby who they can share rides with.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- row-1 col-2 -->
-                <div class="col l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/rock-chalk.gif">
-                        </div>
-                        <div class="card-content" style="background: black">
-                            <span class="card-title activator white-text text-darken-4">Fridge-Sticker
-                                <i class="material-icons right" style="color: white">more_vert</i>
-                            </span>
-                            <p>
-                                <a href="https://github.com/sanjana30/Fridge-sticker/" target="_" style="color: red">Github: Fridge-Sticker</a>
-                            </p>
-                        </div>
-                        <div class="card-reveal" style="background: black">
-                            <span class="card-title white-text text-darken-4">Fridge-Sticker
-                                <i class="material-icons right" style="color: white">close</i>
-                            </span>
-                            <p style="color:white">Do you have fun making words using alphabet magnets on your fridge?!</p>
-                            <p style="color:white">WIth this app you can do it on your laptop/mobile device.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- row-1 col-3 -->
-                <div class="col l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/harry-snape.gif">
-                        </div>
-                        <div class="card-content" style="background: black">
-                            <span class="card-title activator white-text text-darken-4">Giftastic Muggle
-                                <i class="material-icons right" style="color: white">more_vert</i>
-                            </span>
-                            <p>
-                                <a href="https://github.com/sanjana30/gifTastic" style="color: red">Github: Giftastic Muggle</a>
-                            </p>
-                        </div>
-                        <div class="card-reveal" style="background: black">
-                            <span class="card-title white-text text-darken-4">Giftastic Muggle
-                                <i class="material-icons right" style="color: white">close</i>
-                            </span>
-                            <p style="color: white">You must be thinking is she not tired of Harry Potter yet?!</p>
-                            <p style="color: white">Well! I will never be. And like me if you wanna dive into the world of Harry Potter, go ahead and treat yourself with some amazing gifs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- row-2 -->
-            <div class="row container" style="background: #DBCDBA">
-                <!--row-1-col-1-->
-                <div class="col l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/liri.jpg">
-                        </div>
-                        <div class="card-content" style="background: black">
-                            <span class="card-title activator white-text text-darken-4">LIRI
-                                <i class="material-icons right" style="color: white">more_vert</i>
-                            </span>
-                            <p>
-                                <a href="https://github.com/sanjana30/liri-node-app" target="_" style="color: red">Github: LIRI</a>
-                            </p>
-                        </div>
-                        <div class="card-reveal" style="background: black">
-                            <span class="card-title white-text text-darken-4">LIRI
-                                <i class="material-icons right" style="color: white">close</i>
-                            </span>
-                            <p style="color:white">LIRI - SIRI's doppelganger is a Language Interpretaion and Recognition Interface that uses various APIs to fetch information about songs, movies, bands and artists requested by the user.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <!-- parallax container with nav icon and main background image -->
+    <div class="contain" id="landing">
+        <div class="row navIcon">
+            <div class="col l12">
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="small material-icons menu-icon">menu</i>
+                </a>
             </div>
         </div>
-        <script type="text/JavaScript" src="script.js"></script>
-    
+        <div class="row heading animation">
+            <h1 class="heading-text1">Sanjana Tripathi</h1>
+            <h4 class="heading-text2">Developer | Learner | Passionista</h4>
+        </div>
+        <!-- <div class="parallax"></div> -->
+    </div>
+    <!-- parallax container ends -->
+    <!-- bio container -->
+    <div id="bio">
+        <div class="container " style="background: rgb(29, 29, 29)">
+
+            <div class="row valign-wrapper">
+                <div class="col l12">
+                    <h3 class="header">About Me</h3>
+                </div>
+            </div>
+
+
+
+            <div class="row valign-wrapper ">
+                <div class="col l2">
+                    <img src="images/dp-resized.jpg" alt="" class="circle responsive-img" style="float: left;">
+                    <!-- notice the "circle" class -->
+                </div>
+                <div class="col l10 bio-wrapper">
+                    <span style="color: rgb(240, 202, 148); font-family: 'Comfortaa', cursive;">
+                        Hey!<br>I am a muggle, passionate about all things tech, coffee, books, travelling and learning new stuff. 
+                        <br>
+                        After waiting long enough for my letter from the Hogwart's School of Wizardry and Witchcraft, I decided to enroll in the next best thing available to me - Bachelor of Technology degree. I graduated in Information Technology from Jaypee Institute of Information Technology (India) in 2015.
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- bio container closed -->
+    <!-- contact container -->
+    <div id="contact">
+
+        <div class="row heading" style="position: relative; top: 30%;">
+            <div class="col l12">
+                <div class="row ">
+                    <div class="col l12">
+                        <h4 class="heading-text1">Contact</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l1 offset-l4 contact-icon">
+                            <i class="small material-icons">email</i>
+                           
+                    </div>
+                    <div class="col l7 contact-info" >
+                            sanjanatripathi007@gmail.com
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col l1 offset-l4 contact-icon">
+                                <i class="small material-icons">phone_iphone</i>
+                               
+                        </div>
+                        <div class="col l7 contact-info" >
+                                +1-(512)-(586)-9002
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact container close -->
+    <script type="text/JavaScript" src="script.js"></script>
 </body>
 
 </html>
