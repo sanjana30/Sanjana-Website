@@ -1,0 +1,9 @@
+@media #{$small-and-down} {
+    .bio-wrapper{
+        padding: 10px;
+        margin: 10px;
+        max-height: 75%;
+        line-height: 1 rem;
+        font-size: 14;
+    }
+}
