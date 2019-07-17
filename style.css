@@ -175,8 +175,8 @@
     margin: 10px;
     max-height: 75%;
     font-size: 18px;
-    line-height: 1.5 rem;
-    
+    line-height: 1.5rem;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 600px){
