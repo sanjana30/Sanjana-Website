@@ -126,7 +126,8 @@
     }
 
     #contact {
-        background-image: url("images/contactlights.jpg");
+        background-image: url("images/tree-lights.jpg");
+        opacity: 0.8;
         height: 100%;
         width: 100%;
         background-attachment: fixed;
