@@ -186,5 +186,6 @@
         max-height: 75%;
         line-height: 1 rem;
         font-size: 14px;
+        overflow: hidden;
     }
 }
